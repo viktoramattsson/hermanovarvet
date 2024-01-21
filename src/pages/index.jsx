@@ -1,8 +1,8 @@
-import { Inter } from 'next/font/google';
+//import { Inter } from 'next/font/google';
 import s from '../styles/index.module.css';
 import TextGen from '../components/TextGen/TextGen';
 
-const inter = Inter({ subsets: ['latin'] });
+//const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
