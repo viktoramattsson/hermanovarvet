@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'hv-green': '#443f3f',
+        'hv-green': '#CAFEAC',
+        'hv-yellow': '#FFFD64',
       },
     },
   },

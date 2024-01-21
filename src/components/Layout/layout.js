@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <div className="h-24 w-full"></div>
+      <div className="h-[90px] w-full"></div>
       <main>{children}</main>
       <Footer />
     </>

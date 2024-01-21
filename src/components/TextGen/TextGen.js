@@ -12,7 +12,7 @@ function TextGen() {
         console.log(data);
 
         if (data.length > 0) {
-          setText(data[0]); // Sätt det första objektet från arrayen som text
+          setText(data[0]);
         }
       } catch (error) {
         console.error(error);
@@ -24,7 +24,7 @@ function TextGen() {
 
   return (
     <>
-      <div className="w-1/2 mx-auto">
+      <div className="w-4/5 mx-auto">
         <h1 className="text-center">{text.title}</h1>
         <p>{text.message}</p>
       </div>

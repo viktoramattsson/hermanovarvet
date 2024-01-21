@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Logo from '../../../public/logo.png';
 import {
   AiOutlineMenu,
   AiOutlineClose,
@@ -14,6 +15,7 @@ const Navbar = () => {
 
   const handleNav = () => {
     setMenuOpen(!menuOpen);
+    setLoppDropdownOpen(false);
   };
 
   const toggleLoppDropdown = () => {
@@ -22,13 +24,13 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed w-full h-24 shadow-xl bg-white/90">
+      <nav className="fixed w-full h-24 shadow-xl bg-white rounded-b-lg">
         <div className="flex justify-between items-center h-full w-full px-8 2xl: px16">
           <Link href="/">
-            <Image src="/logo.png" alt="logo" width={80} height={80} />
+            <Image src={Logo} alt="logo" width={120} height={120} />
           </Link>
-          <div className="hidden sm:flex">
-            <ul className="hidden sm:flex">
+          <div className="hidden lg:flex">
+            <ul className="hidden lg:flex">
               <Link href="/register">
                 <li className="ml-10 hover:border-b text-l">Anmälan</li>
               </Link>
@@ -40,7 +42,7 @@ const Navbar = () => {
                 {loppDropdownOpen && (
                   <ul className="absolute mt-2 bg-white border border-gray-300">
                     <li className="py-2 px-4 hover:bg-gray-200">
-                      <Link href="/lopp1">Hermanövarvet</Link>
+                      <Link href="/hermanovarvet">Hermanövarvet</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-200">
                       <Link href="/lopp2">Hermanövarvet Trail</Link>
@@ -67,21 +69,21 @@ const Navbar = () => {
               </Link>
             </ul>
           </div>
-          <div onClick={handleNav} className="sm:hidden cursor-pointer pl-24">
-            <AiOutlineMenu size={25} />
+          <div onClick={handleNav} className="lg:hidden cursor-pointer pl-24">
+            <AiOutlineMenu size={35} />
           </div>
         </div>
         <div
-          className={`fixed top-0 w-[65%] sm:hidden h-screen bg-[#ecf0f3] p-10 ease-in-out duration-500 transform ${
+          className={`fixed top-0 w-[75%] lg:hidden h-screen bg-[#ecf0f3] p-10 ease-in-out duration-500 transform ${
             menuOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
         >
           <div className="flex w-full items-center justify-end">
             <div onClick={handleNav} className="cursor-pointer">
-              <AiOutlineClose size={25} />
+              <AiOutlineClose size={35} />
             </div>
           </div>
-          <div className="flex col py-4">
+          <div className="flex col py-4 text-xl">
             <ul>
               <Link href={'/'}>
                 <li
@@ -106,14 +108,39 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <li
-                onClick={() => {
-                  setMenuOpen(false);
-                  setLoppDropdownOpen(false);
-                }}
-                className="py-4 cursor-pointer"
-              >
+              <li onClick={toggleLoppDropdown} className="py-4 cursor-pointer">
                 Lopp
+                {loppDropdownOpen && (
+                  <ul className=" mt-2">
+                    <li
+                      onClick={() => {
+                        setMenuOpen(false);
+                        setLoppDropdownOpen(false);
+                      }}
+                      className="pl-3 py-3 hover:bg-gray-200"
+                    >
+                      <Link href="/hermanovarvet">Hermanövarvet</Link>
+                    </li>
+                    <li
+                      onClick={() => {
+                        setMenuOpen(false);
+                        setLoppDropdownOpen(false);
+                      }}
+                      className="pl-3 py-3 hover:bg-gray-200"
+                    >
+                      <Link href="/trail">Hermanövarvet Trail</Link>
+                    </li>
+                    <li
+                      onClick={() => {
+                        setMenuOpen(false);
+                        setLoppDropdownOpen(false);
+                      }}
+                      className="pl-3 py-3 hover:bg-gray-200"
+                    >
+                      <Link href="/barn">Barnloppet</Link>
+                    </li>
+                  </ul>
+                )}
               </li>
               <Link href={'/afterRun'}>
                 <li
@@ -167,8 +194,11 @@ const Navbar = () => {
               <AiOutlineFacebook size={40} className="cursor-pointer" />
               <AiOutlineInstagram size={40} className="cursor-pointer" />
             </div>
+
             <div>
-              <Link href="/">Logo</Link>
+              <Link href="/">
+                <Image src={Logo} alt="logo" width={100} height={100} />
+              </Link>
             </div>
           </div>
         </div>
