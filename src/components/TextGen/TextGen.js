@@ -24,7 +24,7 @@ function TextGen() {
 
   return (
     <>
-      <div className=" bg-hv-yellow py-10 px-5">
+      <div className=" bg-hv-yellow py-10 px-14">
         <h1 className="text-center mb-8">{text.title}</h1>
         <p className="text-center mb-4">{text.paragraph1}</p>
         <p className="text-center mb-4">{text.paragraph2}</p>
