@@ -2,7 +2,6 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  // basePath: '/hermanovarvet',
   output: 'export',
   images: {
     unoptimized: true,
@@ -10,4 +9,6 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = nextConfig;
+//module.exports = nextConfig;
+
+export default nextConfig;
