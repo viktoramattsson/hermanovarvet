@@ -13,18 +13,12 @@ export default function Home() {
       <div className="h-screen">
         <video
           className="object-cover w-full h-full"
-          src={require('../../public/video/fp-video-mobile.mp4')}
+          src="https://viktoramattsson.github.io/video/fp-video-mobile.mp4"
           autoPlay
           muted
           loop
           playsInline
         />
-        {/* <video autoPlay loop muted playsInline>
-          <source
-            src="../../public/video/fp-video-mobile.mp4"
-            type="video/mp4"
-          />
-        </video> */}
       </div>
       <TextGen />
       <Image src={fp1} alt="bild 1" className="min-h-[60vh] object-cover" />
