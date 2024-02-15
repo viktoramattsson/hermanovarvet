@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../../../public/logo.png';
+import logo from '../../../public/logo.png';
 import {
   AiOutlineMenu,
   AiOutlineClose,
@@ -27,7 +27,7 @@ const Navbar = () => {
       <nav className="fixed w-full h-24 shadow-xl bg-white rounded-b-lg z-10">
         <div className="flex justify-between items-center h-full w-full px-8 2xl: px16">
           <Link href="/">
-            <Image src={Logo} alt="logo" width={120} height={120} />
+            <Image src={logo} alt="logo" width={120} height={120} />
           </Link>
           <div className="hidden lg:flex">
             <ul className="hidden lg:flex">
@@ -197,7 +197,7 @@ const Navbar = () => {
 
             <div>
               <Link href="/">
-                <Image src={Logo} alt="logo" width={100} height={100} />
+                <Image src={logo} alt="logo" width={100} height={100} />
               </Link>
             </div>
           </div>
