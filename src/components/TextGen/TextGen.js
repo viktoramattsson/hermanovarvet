@@ -2,14 +2,13 @@ import { useEffect } from 'react';
 import React from 'react';
 
 function TextGen() {
-  const [text, setText] = React.useState({}); // Initialisera som ett objekt istället för en sträng
+  const [text, setText] = React.useState({});
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch('../../../text.json');
         const data = await response.json();
-        console.log(data);
 
         if (data.length > 0) {
           setText(data[0]);

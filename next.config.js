@@ -10,12 +10,32 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
+module.exports = nextConfig;
+
 const withVideos = require('next-videos');
 
-const combineConfigs = (config) => {
-  return withVideos(config);
-};
+module.exports = withVideos();
 
-const combinedConfig = combineConfigs(nextConfig);
+// konfig för att kunna bygga
 
-module.exports = combinedConfig;
+// /**
+//  * @type {import('next').NextConfig}
+//  */
+// const nextConfig = {
+//   basePath: '/hermanovarvet',
+//   output: 'export',
+//   images: {
+//     unoptimized: true,
+//   },
+//   reactStrictMode: true,
+// };
+
+//  const withVideos = require('next-videos');
+
+//  const combineConfigs = (config) => {
+//    return withVideos(config);
+//  };
+
+//  const combinedConfig = combineConfigs(nextConfig);
+
+//  module.exports = combinedConfig;

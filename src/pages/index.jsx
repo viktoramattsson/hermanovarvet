@@ -1,4 +1,4 @@
-import s from '../styles/index.module.css';
+//import s from '../styles/index.module.css';
 import TextGen from '../components/TextGen/TextGen';
 import RegisterComponent from '@/components/RegisterComponent/registerComponent';
 import Image from 'next/image';
@@ -19,6 +19,12 @@ export default function Home() {
           loop
           playsInline
         />
+        {/* <video autoPlay loop muted playsInline>
+          <source
+            src="../../public/video/fp-video-mobile.mp4"
+            type="video/mp4"
+          />
+        </video> */}
       </div>
       <TextGen />
       <Image src={fp1} alt="bild 1" className="min-h-[60vh] object-cover" />
