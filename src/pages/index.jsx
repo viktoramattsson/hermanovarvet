@@ -7,13 +7,27 @@ import fp2 from '../../public/images/fp2.jpg';
 import fp3 from '../../public/images/fp3.jpg';
 import map from '../../public/images/map.png';
 
+import { useEffect, useState } from 'react';
+
 export default function Home() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setIsMobile(window.innerWidth > 768);
+    }
+  }, []);
+
   return (
     <>
       <div className="h-screen w-screen">
         <video
           className="object-cover w-full h-full"
-          src="https://viktoramattsson.github.io/video/FP-video-LG.mp4"
+          src={
+            isMobile
+              ? 'https://viktoramattsson.github.io/video/FP-video-LG.mp4'
+              : 'https://viktoramattsson.github.io/video/FP-video-Test.mp4'
+          }
           autoPlay
           muted
           loop
