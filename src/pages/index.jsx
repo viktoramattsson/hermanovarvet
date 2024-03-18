@@ -6,7 +6,6 @@ import fp1 from '../../public/images/fp1.jpg';
 import fp2 from '../../public/images/fp2.jpg';
 import fp3 from '../../public/images/fp3.jpg';
 import map from '../../public/images/map.png';
-//import logo from 'https://viktoramattsson.github.io/images/logo-full-white-outline.png';
 
 export default function Home() {
   return (
