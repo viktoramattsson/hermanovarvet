@@ -26,7 +26,7 @@ export default function Home() {
           src={
             isMobile
               ? 'https://viktoramattsson.github.io/video/FP-video-LG.mp4'
-              : 'https://viktoramattsson.github.io/video/FP-video-Test.mp4'
+              : 'https://viktoramattsson.github.io/video/FP-video-SM.mp4'
           }
           autoPlay
           muted
