@@ -6,18 +6,26 @@ import fp1 from '../../public/images/fp1.jpg';
 import fp2 from '../../public/images/fp2.jpg';
 import fp3 from '../../public/images/fp3.jpg';
 import map from '../../public/images/map.png';
+//import logo from 'https://viktoramattsson.github.io/images/logo-full-white-outline.png';
 
 export default function Home() {
   return (
     <>
-      <div className="h-screen">
+      <div className="h-screen w-screen">
         <video
           className="object-cover w-full h-full"
-          src="https://viktoramattsson.github.io/video/fp-video-mobile.mp4"
+          src="https://viktoramattsson.github.io/video/FP-video-LG.mp4"
           autoPlay
           muted
           loop
           playsInline
+        />
+        <Image
+          src="https://viktoramattsson.github.io/images/logo-full-white-outline.png"
+          alt="logo"
+          width={700}
+          height={700}
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-10 pt-36"
         />
       </div>
       <TextGen />

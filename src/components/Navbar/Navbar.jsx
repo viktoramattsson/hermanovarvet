@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-//import logo from '../../../public/logo.png';
+import logo from '../../../public/logo.png';
 import {
   AiOutlineMenu,
   AiOutlineClose,
@@ -24,11 +24,11 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed w-full h-24 shadow-xl bg-white rounded-b-lg z-10">
+      <nav className="fixed w-full h-24 shadow-xl bg-white rounded-b-lg z-10 max-w-[1900px] mx-auto">
         <div className="flex justify-between items-center h-full w-full px-8 2xl: px16">
-          {/* <Link href="/">
+          <Link href="/">
             <Image src={logo} alt="logo" width={120} height={120} />
-          </Link> */}
+          </Link>
           <div className="hidden lg:flex">
             <ul className="hidden lg:flex">
               <Link href="/register">
@@ -74,7 +74,7 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`fixed top-0 w-[75%] lg:hidden h-screen bg-[#ecf0f3] p-10 ease-in-out duration-500 transform ${
+          className={`fixed top-0 w-[75%] max-w-96 lg:hidden h-screen bg-[#ecf0f3] p-10 ease-in-out duration-500 transform ${
             menuOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
         >
@@ -196,9 +196,9 @@ const Navbar = () => {
             </div>
 
             <div>
-              {/* <Link href="/">
+              <Link href="/">
                 <Image src={logo} alt="logo" width={100} height={100} />
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>
