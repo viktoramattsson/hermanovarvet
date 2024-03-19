@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import {
-  AiOutlineMenu,
-  AiOutlineClose,
-  AiOutlineFacebook,
-  AiOutlineInstagram,
-} from 'react-icons/ai';
+import { SlMenu, SlClose } from 'react-icons/sl';
+import { FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -35,11 +31,11 @@ const Navbar = () => {
           </Link>
           <div className="hidden lg:flex">
             <ul className="hidden lg:flex">
-              <Link href="/register">
-                <li className="ml-10 hover:border-b text-l">Anmälan</li>
+              <Link href="/register" className="flex items-center">
+                <li className="flext iml-10 hover:border-b text-l">Anmälan</li>
               </Link>
               <li
-                className="ml-10 hover:border-b text-l cursor-pointer"
+                className="ml-10 hover:border-b text-l cursor-pointer flex items-center"
                 onClick={toggleLoppDropdown}
               >
                 Lopp
@@ -57,24 +53,37 @@ const Navbar = () => {
                   </ul>
                 )}
               </li>
-              <Link href="/afterRun">
+              <Link href="/afterRun" className="flex items-center">
                 <li className="ml-10 hover:border-b text-l">After Run</li>
               </Link>
-              <Link href="/find">
+              <Link href="/find" className="flex items-center">
                 <li className="ml-10 hover:border-b text-l">Hitta hit</li>
               </Link>
-              <Link href="/contact">
+              <Link href="/contact" className="flex items-center">
                 <li className="ml-10 hover:border-b text-l">Kontakt</li>
               </Link>
-              <Link href="/terms">
+              <Link href="/terms" className="flex items-center">
                 <li className="ml-10 hover:border-b text-l">
                   Ammlänna villkor
                 </li>
               </Link>
+
+              <li>
+                <FaFacebookSquare
+                  size={35}
+                  className="cursor-pointer ml-10 text-blue-600"
+                />
+              </li>
+              <li>
+                <FaInstagramSquare
+                  size={35}
+                  className="cursor-pointer mx-6 text-orange-600"
+                />
+              </li>
             </ul>
           </div>
           <div onClick={handleNav} className="lg:hidden cursor-pointer pl-24">
-            <AiOutlineMenu size={35} />
+            <SlMenu size={35} />
           </div>
         </div>
         <div
@@ -83,8 +92,8 @@ const Navbar = () => {
           }`}
         >
           <div className="flex w-full items-center justify-end">
-            <div onClick={handleNav} className="cursor-pointer">
-              <AiOutlineClose size={35} />
+            <div onClick={handleNav} className="cursor-pointer pt-0">
+              <SlClose size={40} />
             </div>
           </div>
           <div className="flex col py-4 text-xl">
@@ -194,17 +203,22 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex flex-col items-center pt-10">
-            <div className="flex flex-row justify-between w-24 mb-4">
-              <AiOutlineFacebook size={40} className="cursor-pointer" />
-              <AiOutlineInstagram size={40} className="cursor-pointer" />
+            <div className="flex flex-row ">
+              <FaFacebookSquare
+                size={60}
+                className="cursor-pointer text-blue-600 mx-5"
+              />
+              <FaInstagramSquare
+                size={60}
+                className="cursor-pointer text-orange-600 mx-5"
+              />
             </div>
-
             <div>
               <Link href="/">
                 <Image
                   src="https://viktoramattsson.github.io/images/logo.png"
                   alt="logo"
-                  width={100}
+                  width={150}
                   height={100}
                 />
               </Link>
