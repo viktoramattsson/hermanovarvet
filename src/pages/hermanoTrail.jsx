@@ -16,10 +16,12 @@ function Hermanovarvet() {
 
   return (
     <>
-      <div className=" flex items-center justify-center h-[80vh]">
+      <div className=" flex items-center justify-center h-[100vh]">
         <Image
-          src={HV}
+          src="https://viktoramattsson.github.io/images/HermanövarvetTrail2023-FotografSabinaSelin-937.jpg"
           alt="Hermanövarvet"
+          width={1900}
+          height={1690}
           className="h-full object-cover -z-20"
         />
         <div className="absolute flex flex-col items-center text-white text-3xl">
@@ -65,29 +67,44 @@ function Hermanovarvet() {
       <div ref={raceInfoRef} className="bg-hv-yellow py-10 px-14">
         <h1 className="my-10">Loppinformation!</h1>
         <p className="mb-4">
-          Den 29 juli kl 15.00 smäller vi av startskottet för västkustens
-          gulligaste 10 km-lopp! Med start på och mål på Mor Johannas äng går
-          loppet på en naturskön bana runt Hermanö på varierande underlag av
-          asfalt och grus. Efter loppet bjuder vi in till gemensam After Run, vi
-          äter gott, dricker svalt och njuter av våra prestationer. Du beställer
-          ditt After Run-paket direkt i anmälan till loppet! Välkommen till
-          Gullholmen & Hermanö!
-        </p>
-        <p className="mb-4">
-          Hermanövarvet har begränsat antal deltagare för bästa upplevelse.
-        </p>
-        <h1 className="mb-4">Pris på anmälan</h1>
-        <p className="mb-4">
-          Ju tidigare du anmäler dig desto billigare är det, bra va?
-        </p>
-        <p className="mb-4">
-          <span className="font-bold">345:-</span> t o m 9/4
-        </p>
-        <p className="mb-4">
-          <span className="font-bold">445:-</span> t o m 24/7
-        </p>
-        <p className="mb-4">
-          <span className="font-bold">545:-</span> fr o m 24/7
+          Loppinformation Den 29 juli kl 11.00 smäller vi av startskottet för
+          västkustens gulligaste traillopp, i ett av Bohusläns största
+          Naturreservat! Med start och mål på Mor Johannas äng går loppet på den
+          mest natursköna banan du kan tänka dig runt Hermanö på varierande
+          tekniskt underlag av grus, skogsstig och klippor. Efter loppet med
+          start kl 17.00 bjuder vi in till gemensam After Run på Gullholmsbaden.
+          Vi äter gott, dricker svalt och njuter av våra prestationer. Du
+          beställer ditt After Run-paket direkt i anmälan till loppet. Välkommen
+          till Gullholmen & Hermanö! Hermanövarvet Trail har begränsat antal
+          startplatser för bästa löpupplevelse. Pris på anmälan Ju tidigare du
+          anmäler dig desto billigare är det, bra va? 445 kr t o m 9/4 545 kr t
+          o m 25/6 595 kr t o m 23/7 645 kr f o m 24/7 Obligatorisk utrustning -
+          Mugg, kåsa eller flaska (samtliga vätskekontroller utmed banan är
+          självservicestationer utan engångsmuggar) Matnyttig löparinfo Distans
+          - 15 km. Starttid och plats - Mor Johannas Äng, Gullholmen, 11.00, 29
+          juli 2023. Vätskekontroller - Samtliga vätskekontroller på banan är
+          självservicestationer utan engångsmuggar. Vilket innebär att varje
+          löpare SKA ha med en egen kåsa, mugg eller flaska för att kunna dricka
+          vid vätskestationerna. Mugg, kåsa eller flaska är obligatorisk
+          utrustning för alla löpare på Hermanövarvet Trail. Begränsat antal
+          platser - för bästa löpupplevelse. Priser? - Vi har ett prisbord fyllt
+          med fina priser från loppets sponsorer. Medalj? - Ja, självklart.
+          Specialdesignad medalj i trä endast för Hermanövarvet Trail Målgång -
+          Mor Johannas äng. Klasser - Dam och Herr. Tidtagning - Chip. Bana -
+          läs allt här, men tillämpa högertrafik. Sjukvård - kunniga personer
+          finns i målområdet. Åldersgräns - 18 år. Läs våra allmänna villkor
+          Anmälan - Anmälan är icke återbetalningsbar. Innan du anmäler dig vill
+          vi också att du tar del av våra allmänna villkor, det blir mycket
+          enklare så för alla. Du hittar dem i menyn ovan. Efteranmälan - Ingen
+          efteranmälan på plats. Anmäl dig online via vårt anmälningsformulär.
+          Nummerlapp - Hämtas på Mor Johannas äng senast 30 minuter innan start,
+          ska bäras tydligt på bröst eller lår under hela loppet. Annars får du
+          ingen tid. Omklädning, duschar och toaletter - Vi rekommenderar ombyte
+          i det fria, alternativt kom ombytt till tävlingen. Efteråt erbjuds bad
+          i havet, vill du ta hellre ta en dusch finns det i gästhamnen för 5kr.
+          Toaletter finns också i gästhamnen, gratis. Färjan från Tuvesvik -
+          Västtrafik sätter in extra färjor mellan kl.09.00-10.00 för deltagarna
+          till vårt Trailvarv.
         </p>
       </div>
       <div>

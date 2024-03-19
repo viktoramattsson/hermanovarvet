@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed w-full h-24 shadow-xl bg-white rounded-b-lg z-10 max-w-[1900px] mx-auto">
+      <nav className="fixed w-full h-20 md:h-24 shadow-xl bg-white z-10 max-w-[1900px] mx-auto">
         <div className="flex justify-between items-center h-full w-full px-8 2xl: px16">
           <Link href="/">
             <Image
@@ -49,7 +49,7 @@ const Navbar = () => {
                       <Link href="/hermanovarvet">Hermanövarvet</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-200">
-                      <Link href="/lopp2">Hermanövarvet Trail</Link>
+                      <Link href="/hermanoTrail">Hermanövarvet Trail</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-200">
                       <Link href="/lopp3">Hermanövarvet Barnloppet</Link>
@@ -132,7 +132,7 @@ const Navbar = () => {
                       }}
                       className="pl-3 py-3 hover:bg-gray-200"
                     >
-                      <Link href="/trail">Hermanövarvet Trail</Link>
+                      <Link href="/hermanoTrail">Hermanövarvet Trail</Link>
                     </li>
                     <li
                       onClick={() => {
