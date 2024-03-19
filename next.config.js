@@ -2,8 +2,8 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  // basePath: '/hermanovarvet',
-  // output: 'export',
+  basePath: '/hermanovarvet',
+  output: 'export',
   images: {
     unoptimized: true,
   },
