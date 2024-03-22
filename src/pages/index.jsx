@@ -20,13 +20,13 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-screen w-screen">
+      <div className="h-screen">
         <video
           className="object-cover w-full h-full"
           src={
             isMobile
               ? 'https://viktoramattsson.github.io/video/FP-video-LG.mp4'
-              : 'https://cdn2.exam.net/vm-testing/FP-video-SM.mp4'
+              : 'https://viktoramattsson.github.io/video/FP-video-LG.mp4'
           }
           autoPlay
           muted
