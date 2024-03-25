@@ -69,16 +69,20 @@ const Navbar = () => {
               </Link>
 
               <li>
-                <FaFacebookSquare
-                  size={35}
-                  className="cursor-pointer ml-10 text-blue-600"
-                />
+                <a href="https://www.facebook.com/hermanovarvet/">
+                  <FaFacebookSquare
+                    size={35}
+                    className="cursor-pointer ml-10 text-blue-600"
+                  />
+                </a>
               </li>
               <li>
-                <FaInstagramSquare
-                  size={35}
-                  className="cursor-pointer mx-6 text-orange-600"
-                />
+                <a href="https://www.instagram.com/hermanovarvet/">
+                  <FaInstagramSquare
+                    size={35}
+                    className="cursor-pointer mx-6 text-orange-600"
+                  />
+                </a>
               </li>
             </ul>
           </div>
@@ -202,23 +206,27 @@ const Navbar = () => {
               </Link>
             </ul>
           </div>
-          <div className="flex flex-col items-center pt-10">
+          <div className="flex flex-col items-center pt-0">
             <div className="flex flex-row ">
-              <FaFacebookSquare
-                size={60}
-                className="cursor-pointer text-blue-600 mx-5"
-              />
-              <FaInstagramSquare
-                size={60}
-                className="cursor-pointer text-orange-600 mx-5"
-              />
+              <a href="https://www.facebook.com/hermanovarvet/">
+                <FaFacebookSquare
+                  size={50}
+                  className="cursor-pointer text-blue-600 mx-5"
+                />
+              </a>
+              <a href="https://www.instagram.com/hermanovarvet/">
+                <FaInstagramSquare
+                  size={50}
+                  className="cursor-pointer text-orange-600 mx-5"
+                />
+              </a>
             </div>
             <div>
               <Link href="/">
                 <Image
                   src="https://viktoramattsson.github.io/images/logo.png"
                   alt="logo"
-                  width={150}
+                  width={120}
                   height={100}
                 />
               </Link>

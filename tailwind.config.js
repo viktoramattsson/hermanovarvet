@@ -12,8 +12,9 @@ module.exports = {
     extend: {
       colors: {
         'hv-green': '#BCEEA3',
+
         'hv-yellow': '#FFF852',
-        'hv-blue': '#99C5EC',
+        'hv-blue': '#99c6ed',
       },
     },
   },

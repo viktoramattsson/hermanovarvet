@@ -5,9 +5,11 @@
 @layer base {
   h1 {
     @apply text-2xl;
+    font-weight: 600;
   }
   h2 {
     @apply text-xl;
+    font-weight: 600;
   }
   h3 {
     @apply text-lg;
