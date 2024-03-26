@@ -48,7 +48,7 @@ const Navbar = () => {
                       <Link href="/hermanoTrail">Hermanövarvet Trail</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-200">
-                      <Link href="/lopp3">Hermanövarvet Barnloppet</Link>
+                      <Link href="/barnLopp">Hermanövarvet Barnloppet</Link>
                     </li>
                   </ul>
                 )}
@@ -154,7 +154,7 @@ const Navbar = () => {
                       }}
                       className="pl-3 py-3 hover:bg-gray-200"
                     >
-                      <Link href="/barn">Barnloppet</Link>
+                      <Link href="/barnLopp">Barnloppet</Link>
                     </li>
                   </ul>
                 )}

@@ -10,9 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-source-sans)'],
+        londrina: ['var(--font-londrina-sans)'],
+      },
       colors: {
-        'hv-green': '#BCEEA3',
-
+        'hv-green': '#bdefa4',
         'hv-yellow': '#FFF852',
         'hv-blue': '#99c6ed',
       },

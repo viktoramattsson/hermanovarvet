@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import HV from '../../public/images/hv-05589.jpg';
 import map from '../../public/images/map.png';
+import PartnerBanner from '@/components/PartnerBanner/partnerBanner';
 
 function Hermanovarvet() {
   const raceInfoRef = useRef(null);
@@ -61,6 +62,7 @@ function Hermanovarvet() {
           </Link>
         </div>
       </div>
+      <PartnerBanner />
       <div className="bg-hv-green flex flex-col lg:flex-row lg:px-6">
         <div
           ref={raceInfoRef}
@@ -118,7 +120,7 @@ function Hermanovarvet() {
               <b>Bana</b> - <a>Läs allt här</a>, men tillämpa högertrafik.
             </li>
             <li>
-              <b>Sjukvård</b> - Kunniga personer finns i målorådet.
+              <b>Sjukvård</b> - Kunniga personer finns i målområdet.
             </li>
             <li>
               <b>Anmälan</b> - Anmälan är icke återbetalningsbar. Innan du
@@ -148,7 +150,7 @@ function Hermanovarvet() {
           </ul>
         </div>
       </div>
-
+      <PartnerBanner />
       <div className="bg-hv-blue flex flex-col lg:flex-row lg:px-6">
         <div
           ref={trackRef}
@@ -192,6 +194,7 @@ function Hermanovarvet() {
           <Image src={map} alt="karta" />
         </div>
       </div>
+      <PartnerBanner />
     </>
   );
 }
