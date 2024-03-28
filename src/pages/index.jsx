@@ -1,4 +1,3 @@
-//import s from '../styles/index.module.css';
 import TextGen from '../components/TextGen/TextGen';
 import RegisterComponent from '@/components/RegisterComponent/registerComponent';
 import Image from 'next/image';
@@ -44,12 +43,13 @@ export default function Home() {
       </div>
       <PartnerBanner />
       <TextGen />
-
       <Image src={fp1} alt="bild 1" className="min-h-[60vh] object-cover" />
-      <RegisterComponent />
-      <Image src={fp2} alt="bild 2" className="min-h-[60vh] object-cover" />
-      <Image src={map} alt="karta" className=" object-cover" />
+      <RegisterComponent /> <PartnerBanner />
+      <div className="bg-hv-blue">
+        <Image src={map} alt="karta" className=" py-24 object-cover m-auto" />
+      </div>
       <Image src={fp3} alt="bild 3" className="min-h-[60vh] object-cover" />
+      <PartnerBanner />
     </>
   );
 }

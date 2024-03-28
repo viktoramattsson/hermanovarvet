@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function PartnerBanner() {
   return (
-    <div className="h-24 sm:h-28 lg:h-32 w-full py-6 flex flex-row bg-gray-200 justify-evenly">
+    <div className="h-24 sm:h-28 lg:h-32 py-6 flex flex-row bg-gray-200 justify-evenly">
       <Image
         className="object-contain"
         src="https://viktoramattsson.github.io/images/triumfglass-197x300.png"

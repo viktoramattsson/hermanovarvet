@@ -6,33 +6,43 @@ import HVTrail from '../../../public/images/Hermanövarvettrail.transperent-350
 function RegisterComponent() {
   return (
     <>
-      <div className="bg-hv-green w-full text-center">
-        <a target="_blank" href="https://raceid.com/sv/races/9235/about">
-          <div className="py-10">
+      <div className="bg-hv-green w-full py-24 text-center flex flex-col md:flex-row justify-evenly">
+        <div className="px-24 pb-10">
+          <a
+            target="_blank"
+            href="https://raceid.com/sv/races/9235/about"
+            className="md:w-1/2"
+          >
             <Image
               src={HV}
               alt="Hermanövarvet"
               priority={true}
-              className="w-1/2 max-h-96 mx-auto object-contain"
+              className="w-full max-h-96 mx-auto object-contain"
             />
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold py-6 px-8 rounded-full">
               Till Anmälan
             </button>
-          </div>
-        </a>
-        <a target="_blank" href="https://raceid.com/sv/races/9235/about">
-          <div className="py-10">
-            <Image
-              src={HVTrail}
-              alt="Hermanövarvet Trail"
-              priority={true}
-              className="w-1/2 max-h-96 mx-auto object-contain"
-            />
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Till Anmälan
-            </button>
-          </div>
-        </a>
+          </a>
+        </div>
+        <div className="px-24 pb-10">
+          <a
+            target="_blank"
+            href="https://raceid.com/sv/races/9235/about"
+            className="md:w-1/2"
+          >
+            <div>
+              <Image
+                src={HVTrail}
+                alt="Hermanövarvet Trail"
+                priority={true}
+                className="w-full max-h-96 mx-auto object-contain"
+              />
+              <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold py-6 px-8 rounded-full">
+                Till Anmälan
+              </button>
+            </div>
+          </a>
+        </div>
       </div>
     </>
   );

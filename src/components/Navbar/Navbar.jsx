@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="hidden lg:flex">
             <ul className="hidden lg:flex">
               <Link href="/register" className="flex items-center">
-                <li className="flext iml-10 hover:border-b text-l">Anmälan</li>
+                <li className="flext hover:border-b text-l">Anmälan</li>
               </Link>
               <li
                 className="ml-10 hover:border-b text-l cursor-pointer flex items-center"
@@ -40,7 +40,7 @@ const Navbar = () => {
               >
                 Lopp
                 {loppDropdownOpen && (
-                  <ul className="absolute mt-40 ml-32 bg-white border border-gray-300">
+                  <ul className="absolute mt-40 ml-18 bg-white border border-gray-300">
                     <li className="py-2 px-4 hover:bg-gray-200">
                       <Link href="/hermanovarvet">Hermanövarvet</Link>
                     </li>
