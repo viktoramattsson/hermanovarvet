@@ -16,7 +16,7 @@ module.exports = {
       },
       colors: {
         'hv-green': '#bdefa4',
-        'hv-yellow': '#FFF852',
+        'hv-yellow': '#fff952',
         'hv-blue': '#99c6ed',
       },
     },

@@ -8,6 +8,7 @@ import fp3 from '../../public/images/fp3.jpg';
 import map from '../../public/images/map.png';
 
 import { useEffect, useState } from 'react';
+import PartnerBanner from '@/components/PartnerBanner/partnerBanner';
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -41,7 +42,9 @@ export default function Home() {
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-10 pt-36"
         />
       </div>
+      <PartnerBanner />
       <TextGen />
+
       <Image src={fp1} alt="bild 1" className="min-h-[60vh] object-cover" />
       <RegisterComponent />
       <Image src={fp2} alt="bild 2" className="min-h-[60vh] object-cover" />

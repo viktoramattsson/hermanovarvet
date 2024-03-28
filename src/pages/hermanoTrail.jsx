@@ -4,6 +4,7 @@ import Link from 'next/link';
 import HV from '../../public/images/hv-05589.jpg';
 import map from '../../public/images/map.png';
 import PartnerBanner from '@/components/PartnerBanner/partnerBanner';
+import UpButton from '@/components/UpButton/upButton';
 
 function Hermanovarvet() {
   const raceInfoRef = useRef(null);
@@ -11,7 +12,8 @@ function Hermanovarvet() {
 
   const scrollTo = (ref) => {
     if (ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' });
+      const scrollOffset = ref.current.offsetTop - 80;
+      window.scrollTo({ top: scrollOffset, behavior: 'smooth' });
     }
   };
 
@@ -31,7 +33,7 @@ function Hermanovarvet() {
               e.preventDefault();
               scrollTo(raceInfoRef);
             }}
-            className="hover:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
           >
             Info
           </a>
@@ -40,25 +42,25 @@ function Hermanovarvet() {
               e.preventDefault();
               scrollTo(trackRef);
             }}
-            className="hover:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
           >
             Banan
           </a>
           <a
             href="https://raceid.com/sv/races/9235/startlist"
-            className="hover:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
           >
             Startlista
           </a>
           <a
             href="https://raceid.com/sv/races/9235/startlist"
-            className="hover:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
           >
             Resultat
           </a>
           <Link
             href="/register"
-            className="hover:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
           >
             Anmälan
           </Link>
@@ -238,6 +240,7 @@ function Hermanovarvet() {
         </div>
       </div>
       <PartnerBanner />
+      <UpButton />
     </>
   );
 }

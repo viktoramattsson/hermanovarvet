@@ -40,7 +40,7 @@ const Navbar = () => {
               >
                 Lopp
                 {loppDropdownOpen && (
-                  <ul className="absolute mt-2 bg-white border border-gray-300">
+                  <ul className="absolute mt-40 ml-32 bg-white border border-gray-300">
                     <li className="py-2 px-4 hover:bg-gray-200">
                       <Link href="/hermanovarvet">Hermanövarvet</Link>
                     </li>
@@ -59,7 +59,10 @@ const Navbar = () => {
               <Link href="/find" className="flex items-center">
                 <li className="ml-10 hover:border-b text-l">Hitta hit</li>
               </Link>
-              <Link href="/contact" className="flex items-center">
+              <Link
+                href="mailto:info@hemanovarvet.se"
+                className="flex items-center"
+              >
                 <li className="ml-10 hover:border-b text-l">Kontakt</li>
               </Link>
               <Link href="/terms" className="flex items-center">
@@ -182,7 +185,7 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link href={'/contact'}>
+              <Link href={'href="mailto:info@hemanovarvet.se"'}>
                 <li
                   onClick={() => {
                     setMenuOpen(false);
