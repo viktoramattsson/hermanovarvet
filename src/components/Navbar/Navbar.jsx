@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed w-full h-20 md:h-24 shadow-xl bg-white z-10 max-w-[1900px] mx-auto">
+      <nav className="fixed w-full h-20 md:h-24 shadow-xl bg-white z-10 max-w-[2500px] mx-auto">
         <div className="flex justify-between items-center h-full w-full px-8 2xl: px16">
           <Link href="/">
             <Image

@@ -4,12 +4,14 @@
 
 @layer base {
   h1 {
-    @apply text-2xl;
-    font-weight: 600;
+    @apply text-3xl;
+
+    font-family: var(--font-londrina-solid);
   }
   h2 {
     @apply text-xl;
-    font-weight: 600;
+
+    font-family: var(--font-londrina-solid);
   }
   h3 {
     @apply text-lg;

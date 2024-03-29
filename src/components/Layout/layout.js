@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer.jsx';
 
 export default function Layout({ children }) {
   return (
-    <div className="max-w-[1900px] mx-auto">
+    <div className="max-w-[2500px] mx-auto">
       <Navbar />
       <div className="h-20 w-full"></div>
       <main>{children}</main>

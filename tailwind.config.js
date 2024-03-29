@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-source-sans)'],
-        londrina: ['var(--font-londrina-sans)'],
+        londrina: ['var(--font-londrina-solid)'],
       },
       colors: {
         'hv-green': '#bdefa4',

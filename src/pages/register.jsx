@@ -10,7 +10,7 @@ function Register() {
       <Image
         src="https://viktoramattsson.github.io/images/Hermanövarvet-3-FotografSabinaSelin_134.jpg"
         alt="logo"
-        width={1900}
+        width={2500}
         height={1000}
         className="h-[90vh] object-cover"
       />

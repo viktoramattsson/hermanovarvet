@@ -31,7 +31,7 @@ function Hermanovarvet() {
               e.preventDefault();
               scrollTo(raceInfoRef);
             }}
-            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Info
           </a>
@@ -40,25 +40,25 @@ function Hermanovarvet() {
               e.preventDefault();
               scrollTo(trackRef);
             }}
-            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Banan
           </a>
           <a
             href="https://raceid.com/sv/races/9235/startlist"
-            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Startlista
           </a>
           <a
             href="https://raceid.com/sv/races/9235/startlist"
-            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Resultat
           </a>
           <Link
             href="/register"
-            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md"
+            className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Anmälan
           </Link>

@@ -10,7 +10,7 @@ function BarnLopp() {
           src="https://viktoramattsson.github.io/images/Herman%C3%B6varvetTrail2023-FotografSabinaSelin-517-short.jpg"
           alt="Hermanövarvet barnloppet"
           className="h-full object-cover"
-          width={1900}
+          width={2500}
           height={800}
         />
       </div>
@@ -33,7 +33,7 @@ function BarnLopp() {
         src="https://viktoramattsson.github.io/images/HermanövarvetTrail2023-FotografSabinaSelin-554-short.jpg"
         alt="Hermanövarvet barnloppet"
         className="object-cover"
-        width={1900}
+        width={2500}
         height={800}
       />
       <PartnerBanner />

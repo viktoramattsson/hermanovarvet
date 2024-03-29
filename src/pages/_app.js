@@ -5,13 +5,19 @@ import { Source_Sans_3, Londrina_Solid } from 'next/font/google';
 
 const sourceSans = Source_Sans_3({
   subsets: ['latin'],
-  weights: [400, 600, 700],
-  // variable: '--font-source-sans',
+  //weight: ['300', '400', '600', '700'],
+  variable: '--font-source-sans',
+});
+
+const londrina = Londrina_Solid({
+  subsets: ['latin'],
+  weight: ['100', '300', '400', '900'],
+  variable: '--font-londrina-solid',
 });
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={sourceSans.className}>
+    <main className={`font-sans ${sourceSans.variable} ${londrina.variable}`}>
       <Layout>
         <Head>
           <title>Hermanövarvet - Västkustens gulligaste sommarlopp</title>

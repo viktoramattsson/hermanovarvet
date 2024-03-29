@@ -22,7 +22,7 @@ function Hermanovarvet() {
         <Image
           src="https://viktoramattsson.github.io/images/HermanövarvetTrail2023-FotografSabinaSelin-937.jpg"
           alt="Hermanövarvet"
-          width={1900}
+          width={2500}
           height={1690}
           className="h-full object-cover -z-20"
         />
