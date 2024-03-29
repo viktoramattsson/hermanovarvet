@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import HV from '../../public/images/hv-05589.jpg';
 import map from '../../public/images/map.png';
 import PartnerBanner from '@/components/PartnerBanner/partnerBanner';
 import UpButton from '@/components/UpButton/upButton';
@@ -67,7 +66,7 @@ function Hermanovarvet() {
         </div>
       </div>
       <PartnerBanner />
-      <div className="bg-hv-green flex flex-col lg:flex-row lg:px-6">
+      <div className="bg-hv-green flex flex-col lg:flex-row lg:px-6 lg:py-24">
         <div
           ref={raceInfoRef}
           className="w-full lg:w-1/2 px-4 lg:px-8 md:px-16 py-6"
@@ -177,8 +176,7 @@ function Hermanovarvet() {
           </ul>
         </div>
       </div>
-      <PartnerBanner />
-      <div className="bg-hv-blue flex flex-col lg:flex-row lg:px-6">
+      <div className="bg-hv-blue flex flex-col lg:flex-row lg:px-6 lg:py-24">
         <div
           ref={trackRef}
           className="w-full lg:w-1/2 px-4 lg:px-8 md:px-16 py-8"

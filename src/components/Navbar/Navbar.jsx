@@ -157,7 +157,7 @@ const Navbar = () => {
                       }}
                       className="pl-3 py-3 hover:bg-gray-200"
                     >
-                      <Link href="/barnLopp">Barnloppet</Link>
+                      <Link href="/barnLopp">Barnlopp</Link>
                     </li>
                   </ul>
                 )}
@@ -185,7 +185,7 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link href={'href="mailto:info@hemanovarvet.se"'}>
+              <Link href="mailto:info@hemanovarvet.se">
                 <li
                   onClick={() => {
                     setMenuOpen(false);

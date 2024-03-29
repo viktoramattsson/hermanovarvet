@@ -44,7 +44,8 @@ export default function Home() {
       <PartnerBanner />
       <TextGen />
       <Image src={fp1} alt="bild 1" className="min-h-[60vh] object-cover" />
-      <RegisterComponent /> <PartnerBanner />
+      <RegisterComponent />
+      <PartnerBanner />
       <div className="bg-hv-blue">
         <Image src={map} alt="karta" className=" py-24 object-cover m-auto" />
       </div>
