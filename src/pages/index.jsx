@@ -49,16 +49,16 @@ export default function Home() {
             <h1 className="pb-8">Vad händer fram till loppet?</h1>
             <ul className="pb-8">
               <li>
-                1 April - Anmälan öppnar 1 april!
+                <b>1 April</b> - Anmälan öppnar 1 april!{' '}
                 <a
                   href="https://raceid.com/sv/races/10548/information"
                   target="_blank"
                 >
-                  klicka här
+                  <b>klicka här</b>{' '}
                 </a>
               </li>
               <li>
-                1 Maj - Provlöp Hermanövarvet Trail.{' '}
+                <b>1 Maj</b> - Provlöp Hermanövarvet Trail.{' '}
                 <a
                   href="https://raceid.com/sv/races/12392/information"
                   target="_blank"
@@ -66,13 +66,17 @@ export default function Home() {
                   <b> klicka här </b>
                 </a>
               </li>
-              <li>7 Maj - Hermanövarvet x Lynk&co x Craft i Göteborg</li>
-              <li>27 Juli - Hermanövarvet Trail & Hermanövarvet 10k</li>
+              <li>
+                <b>7 Maj</b> - Hermanövarvet x Lynk&co x Craft i Göteborg
+              </li>
+              <li>
+                <b>27 Juli</b> - Hermanövarvet Trail & Hermanövarvet 10k
+              </li>
             </ul>
-            <p className="pb-8">
+            <h2 className="pb-8">
               Kom till Sveriges mest tätbebyggda skärgårdsö och spring i
               Bohusläns största naturreservat!
-            </p>
+            </h2>
             <p className="pb-8">
               Den 27 juli 2024 smäller vi av startskottet för västkustens
               gulligaste 10 km-lopp OCH västkustens gulligaste traillopp! Med
@@ -83,11 +87,21 @@ export default function Home() {
           <div className="lg:w-1/2 items-center px-4 text-center">
             <h1 className="pb-8">Hålltider lördag 27 juli</h1>
             <ul>
-              <li>Kl 11:00 - Start Hermanövarvet Trail</li>
-              <li>Kl 13:45 - Start Triumfglassvarvet 0-6år</li>
-              <li>Kl 14:15 - Start Orusts Sparbanksvarvet 7-12år</li>
-              <li>Kl 15:00 - Start Hermanövarvet 10k</li>
-              <li>Kl 17:00 - Start After Run (endast förbokde)</li>
+              <li>
+                <b>Kl 11:00</b> - Start Hermanövarvet Trail
+              </li>
+              <li>
+                <b>Kl 13:45</b> - Start Triumfglassvarvet 0-6år
+              </li>
+              <li>
+                <b>Kl 14:15</b> - Start Orusts Sparbanksvarvet 7-12år
+              </li>
+              <li>
+                <b>Kl 15:00</b> - Start Hermanövarvet 10k
+              </li>
+              <li>
+                <b>Kl 17:00</b> - Start After Run (endast förbokde)
+              </li>
             </ul>
           </div>
         </div>
