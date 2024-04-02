@@ -46,12 +46,14 @@ function Hermanovarvet() {
           </a>
           <a
             href="https://raceid.com/sv/races/9235/startlist"
+            target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Startlista
           </a>
           <a
             href="https://raceid.com/sv/races/9235/startlist"
+            target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Resultat

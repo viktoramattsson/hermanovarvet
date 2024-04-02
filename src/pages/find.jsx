@@ -10,7 +10,7 @@ const Find = () => {
         <p className="pb-4">
           Gullholmen och Hermanö är två pärlor på underbara Västkusten. Öarna
           som är bilfria ligger i den yttre Bohuslänska skärgården på Orusts
-          västsida. Klicka här för karta.{' '}
+          västsida.
         </p>
         <h2>Färja till Gullhomen & Hermanö</h2>
         <p>
@@ -31,8 +31,7 @@ const Find = () => {
           Gullholmen rekommenderar vi att man åker med Skärgårdskryssen.
           Skärgårdskryssen har fasta körningar utifrån tidtabell men kan också
           bokas för grupper som vill åka vid någon speciell tid eller speciell
-          plats. Kanske tillbaka till fastlandet efter vår After Run? För
-          bokning och priser hos Skärgårdskryssen, besök deras hemsida här.
+          plats. Kanske tillbaka till fastlandet efter vår After Run? .
         </p>
         <h2>Vägbeskrivning till färjeläget Tuvesvik med bil</h2>
         <p className="pb-4">
@@ -48,13 +47,18 @@ const Find = () => {
           Hermanö och Gullholmen har en mycket bra gästhamn med plats för många
           båtar. Dusch och toaletter finns i gästhamnen.
         </p>
-        <a href="https://www.google.com/maps/search/gullholmen/@58.1753887,11.4005757,14.49z?entry=ttu">
+        <a
+          href="https://www.google.com/maps/search/gullholmen/@58.1753887,11.4005757,14.49z?entry=ttu"
+          target="_blank"
+        >
           <img
-            src="https://viktoramattsson.github.io/images/googlemap.png"
+            className="mx-auto py-4"
+            src="https://viktoramattsson.github.io/images/googlemaps.jpg"
             alt="karta"
           />
         </a>
       </div>
+      <PartnerBanner />
     </>
   );
 };

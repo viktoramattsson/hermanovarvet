@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function PartnerBanner() {
   return (
-    <div class="flex h-32 w-full flex-nowrap justify-evenly gap-2 bg-gray-200 py-8">
+    <div class="flex h-36 w-full flex-nowrap justify-evenly gap-2 bg-gray-300 py-8">
       <div>
         <img
           class="h-full flex-1 object-scale-down"

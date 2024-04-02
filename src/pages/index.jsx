@@ -50,13 +50,19 @@ export default function Home() {
             <ul className="pb-8">
               <li>
                 1 April - Anmälan öppnar 1 april!
-                <a href="https://raceid.com/sv/races/10548/information">
+                <a
+                  href="https://raceid.com/sv/races/10548/information"
+                  target="_blank"
+                >
                   klicka här
                 </a>
               </li>
               <li>
                 1 Maj - Provlöp Hermanövarvet Trail.{' '}
-                <a href="https://raceid.com/sv/races/12392/information">
+                <a
+                  href="https://raceid.com/sv/races/12392/information"
+                  target="_blank"
+                >
                   <b> klicka här </b>
                 </a>
               </li>
@@ -96,11 +102,7 @@ export default function Home() {
       <div className="bg-hv-blue">
         <Image src={map} alt="karta" className=" py-24 object-cover m-auto" />
       </div>
-      <Image
-        src={fp3}
-        alt="bild 3"
-        className="min-h-[60vh] w-full object-cover"
-      />
+
       <PartnerBanner />
     </>
   );

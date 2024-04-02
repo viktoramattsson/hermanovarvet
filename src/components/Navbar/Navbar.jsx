@@ -61,6 +61,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href="mailto:info@hemanovarvet.se"
+                target="_blank"
                 className="flex items-center"
               >
                 <li className="ml-10 hover:border-b text-l">Kontakt</li>
@@ -72,7 +73,10 @@ const Navbar = () => {
               </Link>
 
               <li>
-                <a href="https://www.facebook.com/hermanovarvet/">
+                <a
+                  href="https://www.facebook.com/hermanovarvet/"
+                  target="_blank"
+                >
                   <FaFacebookSquare
                     size={35}
                     className="cursor-pointer ml-10 text-blue-600"
@@ -80,7 +84,10 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/hermanovarvet/">
+                <a
+                  href="https://www.instagram.com/hermanovarvet/"
+                  target="_blank"
+                >
                   <FaInstagramSquare
                     size={35}
                     className="cursor-pointer mx-6 text-orange-600"
@@ -185,7 +192,7 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link href="mailto:info@hemanovarvet.se">
+              <Link href="mailto:info@hemanovarvet.se" target="_blank">
                 <li
                   onClick={() => {
                     setMenuOpen(false);
@@ -211,13 +218,16 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col items-center pt-0">
             <div className="flex flex-row ">
-              <a href="https://www.facebook.com/hermanovarvet/">
+              <a href="https://www.facebook.com/hermanovarvet/" target="_blank">
                 <FaFacebookSquare
                   size={50}
                   className="cursor-pointer text-blue-600 mx-5"
                 />
               </a>
-              <a href="https://www.instagram.com/hermanovarvet/">
+              <a
+                href="https://www.instagram.com/hermanovarvet/"
+                target="_blank"
+              >
                 <FaInstagramSquare
                   size={50}
                   className="cursor-pointer text-orange-600 mx-5"

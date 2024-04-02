@@ -203,11 +203,13 @@ const Terms = () => {
       <h2 className="mt-6">10. Klagomål & Reklamation</h2>
       <p>
         För eventuella klagomål ber vi dig att kontakta oss på{' '}
-        <a href="mailto:info@hermanovarvet.se">info@hermanovarvet.se</a>.
-        Idrottsevenemang på en bestämd dag eller under en bestämd tidsperiod är
-        undantagna från ångerrätt enligt Lag (2005:59) om distansavtal och avtal
-        utanför affärslokaler. Om du har en avbeställningsförsäkring ska du
-        vända dig direkt till försäkringsbolaget.
+        <a href="mailto:info@hermanovarvet.se" target="_blank">
+          info@hermanovarvet.se
+        </a>
+        . Idrottsevenemang på en bestämd dag eller under en bestämd tidsperiod
+        är undantagna från ångerrätt enligt Lag (2005:59) om distansavtal och
+        avtal utanför affärslokaler. Om du har en avbeställningsförsäkring ska
+        du vända dig direkt till försäkringsbolaget.
       </p>
 
       <h2 className="mt-6">11. Tvister</h2>
