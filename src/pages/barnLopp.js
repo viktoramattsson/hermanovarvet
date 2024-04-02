@@ -1,16 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 import PartnerBanner from '@/components/PartnerBanner/partnerBanner';
-import { baseUrl } from '../../next.config';
 
 function BarnLopp() {
   return (
     <div>
       <div className="flex items-center justify-center h-[60vh]">
         <Image
-          src={
-            '${baseUrl}/images/Herman%C3%B6varvetTrail2023-FotografSabinaSelin-517-short.jpg'
-          }
+          src="https://viktoramattsson.github.io/images/Herman%C3%B6varvetTrail2023-FotografSabinaSelin-517-short.jpg"
           alt="Hermanövarvet barnloppet"
           className="h-full object-cover"
           width={2500}

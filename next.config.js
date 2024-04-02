@@ -2,7 +2,7 @@
  * @type {import('next').NextConfig}
  */
 
-export const baseUrl = 'https://viktoramattsson.github.io';
+// export const baseUrl = 'https://viktoramattsson.github.io';
 
 const nextConfig = {
   basePath: '/hermanovarvet',
