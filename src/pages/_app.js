@@ -21,7 +21,10 @@ export default function App({ Component, pageProps }) {
       <Layout>
         <Head>
           <title>Hermanövarvet - Västkustens gulligaste sommarlopp</title>
-          <link rel="icon" href="../../public/favicon.png" />
+          <link
+            rel="icon"
+            href="https://viktoramattsson.github.io/images/favicon.png"
+          />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
 

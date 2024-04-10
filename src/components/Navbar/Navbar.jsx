@@ -68,7 +68,7 @@ const Navbar = () => {
               </Link>
               <Link href="/terms" className="flex items-center">
                 <li className="ml-10 hover:border-b text-l">
-                  Ammlänna villkor
+                  Allmänna villkor
                 </li>
               </Link>
 
