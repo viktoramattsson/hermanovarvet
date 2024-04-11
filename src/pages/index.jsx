@@ -5,12 +5,18 @@ import fp1 from '../../public/images/fp1.jpg';
 import fp2 from '../../public/images/fp2.jpg';
 import fp3 from '../../public/images/fp3.jpg';
 import map from '../../public/images/map.png';
+import EventForm from '@/components/EventForm/eventForm';
 
 import { useEffect, useState } from 'react';
 import PartnerBanner from '@/components/PartnerBanner/partnerBanner';
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const closeForm = () => {
+    setIsOpen(false);
+  };
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -42,6 +48,7 @@ export default function Home() {
         />
       </div>
       <PartnerBanner />
+      {/* {isOpen && <EventForm closeIt={closeForm} />} */}
       {/* <TextGen /> */}
       <div className="bg-hv-yellow min-h-[50vh] py-32 flex justify-center">
         <div className="lg:flex flex-row lg:px-16">
@@ -67,7 +74,13 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <b>7 Maj</b> - Hermanövarvet x Lynk&co x Craft i Göteborg
+                <b>7 Maj</b> - Hermanövarvet x Lynk&co x Craft i Göteborg.{' '}
+                <a
+                  href="https://peach.nu/activities/iBRFHJ5GZLWAbtt6Qlrq"
+                  target="_blank"
+                >
+                  <b className="cursor-pointer">Anmäl dig här</b>
+                </a>
               </li>
               <li>
                 <b>27 Juli</b> - Hermanövarvet Trail & Hermanövarvet 10k

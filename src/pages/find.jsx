@@ -26,13 +26,7 @@ const Find = () => {
           reseplaneraren på Västtrafiks hemsida här. Från: Tuvesvik Orust till
           Gulholmen hamn ELLER Gullholmen Piren.
         </p>
-        <p className="pb-4">
-          Passar inte färjan eller vill man bara ha en lite finare tur över till
-          Gullholmen rekommenderar vi att man åker med Skärgårdskryssen.
-          Skärgårdskryssen har fasta körningar utifrån tidtabell men kan också
-          bokas för grupper som vill åka vid någon speciell tid eller speciell
-          plats. Kanske tillbaka till fastlandet efter vår After Run? .
-        </p>
+
         <h2>Vägbeskrivning till färjeläget Tuvesvik med bil</h2>
         <p className="pb-4">
           Från Göteborg - Kör E6 mot Oslo. Ta avfart mot Stenungsund/Tjörn/Orust
