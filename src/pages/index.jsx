@@ -50,9 +50,9 @@ export default function Home() {
       <PartnerBanner />
       {/* {isOpen && <EventForm closeIt={closeForm} />} */}
       {/* <TextGen /> */}
-      <div className="bg-hv-yellow min-h-[50vh] py-32 flex justify-center">
+      <div className="bg-hv-yellow min-h-[50vh] py-20 flex justify-center">
         <div className="lg:flex flex-row lg:px-16">
-          <div className="lg:w-1/2 items-center px-4 text-center">
+          <div className="lg:w-1/2 items-center px-4 lg:ml-16">
             <h1 className="pb-8">Vad händer fram till loppet?</h1>
             <ul className="pb-8">
               <li>
@@ -97,7 +97,7 @@ export default function Home() {
               banor runt Hermanö.
             </p>
           </div>
-          <div className="lg:w-1/2 items-center px-4 text-center">
+          <div className="lg:w-1/2 items-center px-4 lg:ml-16">
             <h1 className="pb-8">Hålltider lördag 27 juli</h1>
             <ul>
               <li>
