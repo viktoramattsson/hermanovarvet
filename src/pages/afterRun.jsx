@@ -12,19 +12,16 @@ const AfterRun = () => {
         />
       </div>
       <div className="bg-hv-yellow">
-        <div className="px-8 py-8 max-w-[800px] m-auto">
-          <h1 className="pb-4">Välkommen på After Run!</h1>
+        <div className="px-8 py-10 max-w-[800px] m-auto">
+          <h1 className="pb-4 text-center">Välkommen på After Run!</h1>
           <p className="pb-4">
-            Efter Hermanövarvet 10k och Hermanövarvet Trail bjuder vi
-            tillsammans med Restaurang Kabyssen/Skottarn in till gemensam After
-            Run.
+            Hur toppar man en dag i skärgården efter Hermanövarvet och
+            Hermanövarvet Trail? Jo med After Run såklart! Nytt för i år är att
+            vi gästar Skottarn och nya krogen Kabyssen, som ligger längst ut på
+            gästhamnsbryggan. Från kl 17:00 står buffen uppdukad och vi kan
+            utlova skön stämning, kall dryck och peppig live-musik.
           </p>
-          <p className="pb-4">
-            Från 16:30 utlovas skön stämning, god mat och livemusik. Du
-            beställer ditt After Run-paket direkt i anmälan till loppet. Priset
-            för After Run-paketet gäller endast vid förbeställning genom anmälan
-            till Hermanövarvet.
-          </p>
+
           <div>
             <div className="p-10 sm:w-2/3 my-8 bg-hv-green rounded-2xl text-center mx-auto">
               <h2 className="mb-10">
