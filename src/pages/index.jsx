@@ -62,6 +62,25 @@ export default function Home() {
             start och mål på Mor Johannas äng går båda loppen på natursköna
             banor runt Hermanö.
           </p>
+
+          <h2 className="pt-8 pb-5">Hålltider lördag 27 juli</h2>
+          <ul className="text-lg">
+            <li>
+              <b>Kl 11:00</b> - Start Hermanövarvet Trail
+            </li>
+            <li>
+              <b>Kl 13:45</b> - Start Triumfglassvarvet 0-6år
+            </li>
+            <li>
+              <b>Kl 14:15</b> - Start Orusts Sparbanksvarvet 7-12år
+            </li>
+            <li>
+              <b>Kl 15:00</b> - Start Hermanövarvet 10k
+            </li>
+            <li>
+              <b>Kl 17:00</b> - Start After Run (endast förbokde)
+            </li>
+          </ul>
         </div>
       </div>
       <Image
