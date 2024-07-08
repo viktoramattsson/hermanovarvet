@@ -236,7 +236,10 @@ function Hermanovarvet() {
           <p>Banans längd är GPS-mätt och ej kontrollerad på annat sätt.</p>
         </div>
         <div className="w-full lg:w-1/2 py-8 px-4 lg:px-8 md:px-16">
-          <Image src={map} alt="karta" />
+          <img
+            src="https://viktoramattsson.github.io/images/karta_Trail.png"
+            alt="After Run"
+          />
         </div>
       </div>
       <PartnerBanner />

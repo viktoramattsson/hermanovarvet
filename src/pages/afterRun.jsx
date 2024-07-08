@@ -25,6 +25,19 @@ const AfterRun = () => {
             för After Run-paketet gäller endast vid förbeställning genom anmälan
             till Hermanövarvet.
           </p>
+          <div>
+            <div className="p-10 sm:w-2/3 my-8 bg-hv-green rounded-2xl text-center mx-auto">
+              <h2 className="mb-10">
+                Orkar du inte springa, men ändå är sugen på gott häng efteråt?
+                Då kan du anmäla dig till endast After Run här.
+              </h2>
+              <a target="_blank" href="https://raceid.com/sv/races/10548/about">
+                <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold py-6 px-8 rounded-full">
+                  Till Anmälan
+                </button>
+              </a>
+            </div>
+          </div>
           <h2 className="pb-4">Meny 2023</h2>
           <p className="mb-2">
             - Fransk potatissallad med purjolök, kapris, rödlök och vinägrett
