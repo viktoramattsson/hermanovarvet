@@ -50,6 +50,19 @@ export default function Home() {
       <PartnerBanner />
       {/* {isOpen && <EventForm closeIt={closeForm} />} */}
       {/* <TextGen /> */}
+      <div className="bg-hv-yellow p-10">
+        <div className="p-10 sm:w-1/3 my-8 bg-hv-green rounded-2xl text-center mx-auto">
+          <h2 className="mb-10">Race PM för 2024 finns nu tillgängligt!</h2>
+          <a
+            target="_blank"
+            href="https://viktoramattsson.github.io/Race-PM-2024.pdf"
+          >
+            <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold py-6 px-8 rounded-full">
+              Race PM
+            </button>
+          </a>
+        </div>
+      </div>
       <div className="bg-hv-yellow min-h-[60vh] flex justify-center items-center">
         <div className="px-10 md:w-2/3 xl:w-1/2 ">
           <h1 className="mb-8">
