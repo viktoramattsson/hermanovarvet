@@ -5,7 +5,7 @@
 // export const baseUrl = 'https://viktoramattsson.github.io';
 
 const nextConfig = {
-  basePath: '/hermanovarvet',
+  // basePath: '/hermanovarvet',
   output: 'export',
   images: {
     unoptimized: true,
@@ -15,4 +15,6 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
-// export default nextConfig;
+// remove basepath when building
+// remove basepath in dev mood
+// keep basepath for github deployment

@@ -35,8 +35,8 @@ const AfterRun = () => {
               </a>
             </div>
           </div>
-          <h2 className="pb-4">Meny 2024</h2>
-          <p className="mb-2">
+          <h2 className="pb-4">Meny 2024 - inom kort</h2>
+          {/* <p className="mb-2">
             - Fransk potatissallad med purjolök, kapris, rödlök och vinägrett
           </p>
           <p className="mb-2">
@@ -50,7 +50,7 @@ const AfterRun = () => {
           <p className="mb-2">- Ugnsbakad lax</p>
           <p className="mb-2">- Mojo kräm</p>
           <p className="mb-2">- Örtsås</p>
-          <p className="mb-2">- Hembakat bröd & tapenade</p>
+          <p className="mb-2">- Hembakat bröd & tapenade</p> */}
         </div>
       </div>
       <div className="w-screen h-[70vh] overflow-hidden">

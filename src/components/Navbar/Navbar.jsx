@@ -60,7 +60,7 @@ const Navbar = () => {
                 <li className="ml-10 hover:border-b text-l">Hitta hit</li>
               </Link>
               <Link
-                href="mailto:info@hemanovarvet.se"
+                href="mailto:info@hermanovarvet.se"
                 target="_blank"
                 className="flex items-center"
               >
@@ -192,7 +192,7 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link href="mailto:info@hemanovarvet.se" target="_blank">
+              <Link href="mailto:info@hermanovarvet.se" target="_blank">
                 <li
                   onClick={() => {
                     setMenuOpen(false);

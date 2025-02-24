@@ -50,33 +50,23 @@ export default function Home() {
       <PartnerBanner />
       {/* {isOpen && <EventForm closeIt={closeForm} />} */}
       {/* <TextGen /> */}
-      <div className="bg-hv-yellow p-10">
-        <div className="p-10 sm:w-1/3 my-8 bg-hv-green rounded-2xl text-center mx-auto">
-          <h2 className="mb-10">Race PM för 2024 finns nu tillgängligt!</h2>
-          <a
-            target="_blank"
-            href="https://viktoramattsson.github.io/Race-PM-2024.pdf"
-          >
-            <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold py-6 px-8 rounded-full">
-              Race PM
-            </button>
-          </a>
-        </div>
-      </div>
+
       <div className="bg-hv-yellow min-h-[60vh] flex justify-center items-center">
-        <div className="px-10 md:w-2/3 xl:w-1/2 ">
+        <div className="p-10 md:w-2/3 xl:w-1/2 ">
           <h1 className="mb-8">
             Kom till Sveriges mest tätbebyggda skärgårdsö och spring i Bohusläns
             största naturreservat!
           </h1>
+          <h2 className="pb-5">HERMANÖVARVET 2025 - ANMÄLAN ÖPPNAR 1 APRIL</h2>
+
           <p>
-            Den 27 juli 2024 smäller vi av startskottet för västkustens
+            Den 26 juli 2024 smäller vi av startskottet för västkustens
             gulligaste 10 km-lopp OCH västkustens gulligaste traillopp! Med
             start och mål på Mor Johannas äng går båda loppen på natursköna
             banor runt Hermanö.
           </p>
 
-          <h2 className="pt-8 pb-5">Hålltider lördag 27 juli</h2>
+          <h2 className="pt-8 pb-5">Hålltider lördag 26 juli</h2>
           <ul className="text-lg">
             <li>
               <b>Kl 11:00</b> - Start Hermanövarvet Trail
@@ -94,6 +84,35 @@ export default function Home() {
               <b>Kl 17:00</b> - Start After Run (endast förbokde)
             </li>
           </ul>
+        </div>
+      </div>
+      <div className="bg-hv-yellow p-10">
+        <div className="p-10 sm:w-1/3 my-8 bg-hv-green rounded-2xl text-center mx-auto">
+          <h1 className="mb-10">Resultat 2024</h1>
+          <div>
+            <a target="_blank" href="https://live.eqtiming.com/71761">
+              <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold w-2/3 mb-5 py-6 px-8 rounded-full">
+                Hermanövarvet 10k
+              </button>
+            </a>
+          </div>
+          <div>
+            <a target="_blank" href="https://live.eqtiming.com/71760">
+              <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold w-2/3 mb-5 py-6 px-8 rounded-full">
+                Trail
+              </button>
+            </a>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              href="https://live.eqtiming.com/71760#series:1591-183621-1-"
+            >
+              <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold w-2/3 py-6 px-8 rounded-full">
+                Dubbel
+              </button>
+            </a>
+          </div>
         </div>
       </div>
       <Image
