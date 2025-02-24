@@ -35,7 +35,7 @@ const AfterRun = () => {
               </a>
             </div>
           </div>
-          <h2 className="pb-4">Meny 2024 - inom kort</h2>
+          <h2 className="pb-4">Meny 2025 - inom kort</h2>
           {/* <p className="mb-2">
             - Fransk potatissallad med purjolök, kapris, rödlök och vinägrett
           </p>

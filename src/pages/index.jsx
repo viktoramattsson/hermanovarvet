@@ -122,8 +122,17 @@ export default function Home() {
       />
       <RegisterComponent />
       <PartnerBanner />
-      <div className="bg-hv-blue">
-        <Image src={map} alt="karta" className=" py-24 object-cover m-auto" />
+      <div className="bg-hv-blue flex flex-col md:flex-row md:px-20">
+        <div className="w-full md:w-1/2 flex justify-center items-center">
+          <Image src={map} alt="karta" className="w-full object-cover" />
+        </div>
+        <div className="w-full md:w-1/2 flex justify-center items-center">
+          <img
+            src="https://viktoramattsson.github.io/images/karta_Trail.png"
+            alt="After Run"
+            className="w-full object-cover"
+          />
+        </div>
       </div>
 
       <PartnerBanner />
