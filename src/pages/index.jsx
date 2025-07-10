@@ -46,6 +46,17 @@ export default function Home() {
           height={700}
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-10 pt-36"
         />
+        <div className="absolute bottom-8 right-8">
+          <a
+            target="_blank"
+            href="https://raceid.com/sv/races/13545/about"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-hv-green hover:bg-blue-700 text-black font-bold text-3xl py-6 px-10 rounded-full">
+              Anmäl dig här!
+            </button>
+          </a>
+        </div>
       </div>
       <PartnerBanner />
       {/* {isOpen && <EventForm closeIt={closeForm} />} */}
@@ -60,13 +71,13 @@ export default function Home() {
           <h2 className="pb-5">HERMANÖVARVET 2025 - ANMÄLAN ÖPPNAR 1 APRIL</h2>
 
           <p>
-            Den 26 juli 2024 smäller vi av startskottet för västkustens
+            Lördag vecka 30 smäller vi av startskottet för västkustens
             gulligaste 10 km-lopp OCH västkustens gulligaste traillopp! Med
             start och mål på Mor Johannas äng går båda loppen på natursköna
             banor runt Hermanö.
           </p>
 
-          <h2 className="pt-8 pb-5">Hålltider lördag 26 juli</h2>
+          <h2 className="pt-8 pb-5">Hålltider lördag vecka 30</h2>
           <ul className="text-lg">
             <li>
               <b>Kl 11:00</b> - Start Hermanövarvet Trail

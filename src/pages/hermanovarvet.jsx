@@ -45,14 +45,14 @@ function Hermanovarvet() {
             Banan
           </a>
           <a
-            href="https://raceid.com/sv/races/10548/startlist"
+            href="https://raceid.com/sv/races/13545/startlist"
             target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Startlista
           </a>
           <a
-            href="https://raceid.com/sv/races/10548/startlist"
+            href="https://raceid.com/sv/races/13545/result"
             target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
@@ -74,7 +74,7 @@ function Hermanovarvet() {
         >
           <h1 className="my-6">Loppinformation Hermanövarvet 10k</h1>
           <p className="mb-4">
-            Den 27 juli kl 15.00 smäller vi av startskottet för västkustens
+            Lödrdag vecka 30 smäller vi av startskottet för västkustens
             gulligaste 10 km-lopp! Med start på och mål på Mor Johannas äng går
             loppet på en naturskön bana runt Hermanö på varierande underlag av
             asfalt och grus. Efter loppet bjuder vi in till gemensam After Run.
@@ -102,7 +102,7 @@ function Hermanovarvet() {
             </li>
             <li>
               <b>Starttid och plats -</b> Mor Johannas Äng, Gullholmen, 15.00,
-              27 Juli 2024.
+              lördag vecka 30.
             </li>
             <li>
               <b>Målgång</b>- Mor Johannas Äng.

@@ -46,14 +46,14 @@ function Hermanovarvet() {
             Banan
           </a>
           <a
-            href="https://raceid.com/sv/races/10548/startlist"
+            href="https://raceid.com/sv/races/13545/startlist"
             target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Startlista
           </a>
           <a
-            href="https://raceid.com/sv/races/10548/startlist"
+            href="https://raceid.com/sv/races/13545/result"
             target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
@@ -75,7 +75,7 @@ function Hermanovarvet() {
         >
           <h1 className="my-6">Loppinformation Hermanövarvet Trail</h1>
           <p className="mb-4">
-            Den 27 juli kl 11.00 smäller vi av startskottet för västkustens
+            Lördag vecka 30 kl 11.00 smäller vi av startskottet för västkustens
             gulligaste traillopp, i ett av Bohusläns största Naturreservat! Med
             start och mål på Mor Johannas äng går loppet på den mest natursköna
             banan du kan tänka dig runt Hermanö på varierande tekniskt underlag
@@ -97,7 +97,7 @@ function Hermanovarvet() {
             banan är självservicestationer utan engångsmuggar)
           </p>
           <div className="flex justify-center content-center lg:mt-20 mt-10">
-            <a href="https://raceid.com/sv/races/10548/about" target="_blank">
+            <a href="https://raceid.com/sv/races/13545/about" target="_blank">
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full">
                 Till Anmälan
               </button>
@@ -111,8 +111,8 @@ function Hermanovarvet() {
               <b>Distans</b>- 15km
             </li>
             <li>
-              <b>Starttid och plats</b>- Mor Johannas Äng, Gullholmen, 11.00, 27
-              juli 2024.
+              <b>Starttid och plats</b>- Mor Johannas Äng, Gullholmen, 11.00,
+              lördag vecka 30.
             </li>
             <li>
               <b>Vätskekontroller</b>- Samtliga vätskekontroller på banan är

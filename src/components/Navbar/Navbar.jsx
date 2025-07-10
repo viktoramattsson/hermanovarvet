@@ -32,7 +32,9 @@ const Navbar = () => {
           <div className="hidden lg:flex">
             <ul className="hidden lg:flex">
               <Link href="/register" className="flex items-center">
-                <li className="flext hover:border-b text-l">Anmälan</li>
+                <li className="flext hover:border-b text-l bg-hv-green hover:bg-blue-700 text-black py-2 px-6 rounded-full">
+                  Anmälan
+                </li>
               </Link>
               <li
                 className="ml-10 hover:border-b text-l cursor-pointer flex items-center"
