@@ -31,11 +31,20 @@ const Navbar = () => {
           </Link>
           <div className="hidden lg:flex">
             <ul className="hidden lg:flex">
-              <Link href="/register" className="flex items-center">
+              {/* <Link href="/register" className="flex items-center">
                 <li className="flext hover:border-b text-l bg-hv-green hover:bg-blue-700 text-black py-2 px-6 rounded-full">
                   Anmälan
                 </li>
-              </Link>
+              </Link> */}
+              <li className="flex items-center">
+                <a
+                  href="/race-pm-2025.pdf"
+                  download
+                  className="hover:border-b text-l bg-hv-green hover:bg-blue-700 text-black py-2 px-6 rounded-full"
+                >
+                  Race PM 2025
+                </a>
+              </li>
               <li
                 className="ml-10 hover:border-b text-l cursor-pointer flex items-center"
                 onClick={toggleLoppDropdown}

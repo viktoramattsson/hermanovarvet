@@ -52,9 +52,9 @@ export default function Home() {
             href="https://raceid.com/sv/races/13545/about"
             rel="noopener noreferrer"
           >
-            <button className="bg-hv-green hover:bg-blue-700 text-black font-bold text-3xl py-6 px-10 rounded-full">
+            {/* <button className="bg-hv-green hover:bg-blue-700 text-black font-bold text-3xl py-6 px-10 rounded-full">
               Anmäl dig här!
-            </button>
+            </button> */}
           </a>
         </div>
       </div>
@@ -99,22 +99,22 @@ export default function Home() {
       </div>
       <div className="bg-hv-yellow p-10">
         <div className="p-10 sm:w-1/3 my-8 bg-hv-green rounded-2xl text-center mx-auto">
-          <h1 className="mb-10">Resultat 2024</h1>
+          <h1 className="mb-10">Resultat 2025</h1>
           <div>
-            <a target="_blank" href="https://live.eqtiming.com/71761">
+            <a target="_blank" href="https://live.eqtiming.com/7713">
               <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold w-2/3 mb-5 py-6 px-8 rounded-full">
                 Hermanövarvet 10k
               </button>
             </a>
           </div>
           <div>
-            <a target="_blank" href="https://live.eqtiming.com/71760">
+            <a target="_blank" href="https://live.eqtiming.com/77134">
               <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold w-2/3 mb-5 py-6 px-8 rounded-full">
                 Trail
               </button>
             </a>
           </div>
-          <div>
+          {/* <div>
             <a
               target="_blank"
               href="https://live.eqtiming.com/71760#series:1591-183621-1-"
@@ -123,7 +123,7 @@ export default function Home() {
                 Dubbel
               </button>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <Image
