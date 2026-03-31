@@ -45,14 +45,14 @@ function Hermanovarvet() {
             Banan
           </a>
           <a
-            href="https://raceid.com/sv/races/13545/startlist"
+            href="https://raceid.com/sv/races/14877/startlist"
             target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Startlista
           </a>
           <a
-            href="https://raceid.com/sv/races/13545/result"
+            href="https://raceid.com/sv/races/14877/result"
             target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >

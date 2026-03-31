@@ -12,7 +12,7 @@ import PartnerBanner from '@/components/PartnerBanner/partnerBanner';
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const closeForm = () => {
     setIsOpen(false);
@@ -49,18 +49,18 @@ export default function Home() {
         <div className="absolute bottom-8 right-8">
           <a
             target="_blank"
-            href="https://raceid.com/sv/races/13545/about"
+            href="https://raceid.com/sv/races/14877/about"
             rel="noopener noreferrer"
           >
-            {/* <button className="bg-hv-green hover:bg-blue-700 text-black font-bold text-3xl py-6 px-10 rounded-full">
+            <button className="bg-hv-green hover:bg-blue-700 text-black font-bold text-3xl py-6 px-10 rounded-full">
               Anmäl dig här!
-            </button> */}
+            </button>
           </a>
         </div>
       </div>
       <PartnerBanner />
-      {/* {isOpen && <EventForm closeIt={closeForm} />} */}
-      {/* <TextGen /> */}
+      {/* {isOpen && <EventForm closeIt={closeForm} />}
+      <TextGen /> */}
 
       <div className="bg-hv-yellow min-h-[60vh] flex justify-center items-center">
         <div className="p-10 md:w-2/3 xl:w-1/2 ">
@@ -68,7 +68,7 @@ export default function Home() {
             Kom till Sveriges mest tätbebyggda skärgårdsö och spring i Bohusläns
             största naturreservat!
           </h1>
-          <h2 className="pb-5">HERMANÖVARVET 2025 - ANMÄLAN ÖPPNAR 1 APRIL</h2>
+          <h2 className="pb-5">HERMANÖVARVET 2026 - ANMÄLAN ÖPPNAR 1 APRIL</h2>
 
           <p>
             Lördag vecka 30 smäller vi av startskottet för västkustens
@@ -91,17 +91,26 @@ export default function Home() {
             <li>
               <b>Kl 15:00</b> - Start Hermanövarvet 10k
             </li>
-            <li>
-              <b>Kl 17:00</b> - Start After Run (endast förbokde)
-            </li>
           </ul>
         </div>
       </div>
+      {/* <div>
+        <a
+          href="/race-pm-2025.pdf"
+          download
+          className="hover:border-b text-l bg-hv-green hover:bg-blue-700 text-black py-2 px-6 rounded-full"
+        >
+          <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold w-2/3 mb-5 py-6 px-8 rounded-full">
+            Race PM 2025
+          </button>
+        </a>
+      </div> */}
+
       <div className="bg-hv-yellow p-10">
         <div className="p-10 sm:w-1/3 my-8 bg-hv-green rounded-2xl text-center mx-auto">
           <h1 className="mb-10">Resultat 2025</h1>
           <div>
-            <a target="_blank" href="https://live.eqtiming.com/7713">
+            <a target="_blank" href="https://live.eqtiming.com/77133">
               <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold w-2/3 mb-5 py-6 px-8 rounded-full">
                 Hermanövarvet 10k
               </button>
@@ -114,16 +123,6 @@ export default function Home() {
               </button>
             </a>
           </div>
-          {/* <div>
-            <a
-              target="_blank"
-              href="https://live.eqtiming.com/71760#series:1591-183621-1-"
-            >
-              <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold w-2/3 py-6 px-8 rounded-full">
-                Dubbel
-              </button>
-            </a>
-          </div> */}
         </div>
       </div>
       <Image

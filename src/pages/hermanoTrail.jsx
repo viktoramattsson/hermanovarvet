@@ -46,14 +46,14 @@ function Hermanovarvet() {
             Banan
           </a>
           <a
-            href="https://raceid.com/sv/races/13545/startlist"
+            href="https://raceid.com/sv/races/14877/startlist"
             target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
             Startlista
           </a>
           <a
-            href="https://raceid.com/sv/races/13545/result"
+            href="https://raceid.com/sv/races/14877/result"
             target="_blank"
             className="active:bg-black/80 w-full py-4 px-20 my-4 bg-black/60 items-center justify-center flex rounded-md font-londrina"
           >
@@ -97,7 +97,7 @@ function Hermanovarvet() {
             banan är självservicestationer utan engångsmuggar)
           </p>
           <div className="flex justify-center content-center lg:mt-20 mt-10">
-            <a href="https://raceid.com/sv/races/13545/about" target="_blank">
+            <a href="https://raceid.com/sv/races/14877/about" target="_blank">
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full">
                 Till Anmälan
               </button>

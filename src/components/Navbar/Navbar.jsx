@@ -20,7 +20,8 @@ const Navbar = () => {
   return (
     <>
       <nav className="fixed w-full h-20 md:h-24 shadow-xl bg-white z-10 max-w-[2500px] mx-auto">
-        <div className="flex justify-between items-center h-full w-full px-8 2xl: px16">
+        <div className="flex justify-between items-center h-full w-full px-8 2xl:px-16">
+          {/* Logga */}
           <Link href="/">
             <Image
               src="https://viktoramattsson.github.io/images/logo.png"
@@ -29,22 +30,24 @@ const Navbar = () => {
               height={120}
             />
           </Link>
+
+          {/* Race PM-länk (alltid synlig) */}
+          {/* <a
+            href="/race-pm-2025.pdf"
+            download
+            className="text-sm sm:text-base bg-hv-green hover:bg-blue-700 text-black py-2 px-4 rounded-full whitespace-nowrap mx-2"
+          >
+            Race PM 2025
+          </a> */}
+
+          {/* Hamburger-meny */}
+          <div onClick={handleNav} className="lg:hidden cursor-pointer pl-4">
+            <SlMenu size={35} />
+          </div>
+
+          {/* Desktop-meny */}
           <div className="hidden lg:flex">
-            <ul className="hidden lg:flex">
-              {/* <Link href="/register" className="flex items-center">
-                <li className="flext hover:border-b text-l bg-hv-green hover:bg-blue-700 text-black py-2 px-6 rounded-full">
-                  Anmälan
-                </li>
-              </Link> */}
-              <li className="flex items-center">
-                <a
-                  href="/race-pm-2025.pdf"
-                  download
-                  className="hover:border-b text-l bg-hv-green hover:bg-blue-700 text-black py-2 px-6 rounded-full"
-                >
-                  Race PM 2025
-                </a>
-              </li>
+            <ul className="hidden lg:flex items-center">
               <li
                 className="ml-10 hover:border-b text-l cursor-pointer flex items-center"
                 onClick={toggleLoppDropdown}
@@ -64,9 +67,9 @@ const Navbar = () => {
                   </ul>
                 )}
               </li>
-              <Link href="/afterRun" className="flex items-center">
+              {/* <Link href="/afterRun" className="flex items-center">
                 <li className="ml-10 hover:border-b text-l">After Run</li>
-              </Link>
+              </Link> */}
               <Link href="/find" className="flex items-center">
                 <li className="ml-10 hover:border-b text-l">Hitta hit</li>
               </Link>
@@ -82,7 +85,6 @@ const Navbar = () => {
                   Allmänna villkor
                 </li>
               </Link>
-
               <li>
                 <a
                   href="https://www.facebook.com/hermanovarvet/"
@@ -107,10 +109,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div onClick={handleNav} className="lg:hidden cursor-pointer pl-24">
-            <SlMenu size={35} />
-          </div>
         </div>
+
+        {/* Mobilmeny */}
         <div
           className={`fixed top-0 w-[75%] max-w-96 lg:hidden h-screen bg-[#ecf0f3] p-10 ease-in-out duration-500 transform ${
             menuOpen ? 'translate-x-0' : '-translate-x-full'
@@ -145,7 +146,6 @@ const Navbar = () => {
                   Anmälan
                 </li>
               </Link>
-
               <li onClick={toggleLoppDropdown} className="py-4 cursor-pointer">
                 Lopp
                 {loppDropdownOpen && (
@@ -180,7 +180,7 @@ const Navbar = () => {
                   </ul>
                 )}
               </li>
-              <Link href={'/afterRun'}>
+              {/* <Link href={'/afterRun'}>
                 <li
                   onClick={() => {
                     setMenuOpen(false);
@@ -190,7 +190,7 @@ const Navbar = () => {
                 >
                   After Run
                 </li>
-              </Link>
+              </Link> */}
               <Link href={'/find'}>
                 <li
                   onClick={() => {
@@ -202,7 +202,6 @@ const Navbar = () => {
                   Hitta hit
                 </li>
               </Link>
-
               <Link href="mailto:info@hermanovarvet.se" target="_blank">
                 <li
                   onClick={() => {

@@ -33,7 +33,7 @@ const AfterRun = () => {
                 Orkar du inte springa, men ändå är sugen på gott häng efteråt?
                 Då kan du anmäla dig till endast After Run här.
               </h2>
-              <a target="_blank" href="https://raceid.com/sv/races/13545/about">
+              <a target="_blank" href="https://raceid.com/sv/races/14877/about">
                 <button className="bg-gray-950 hover:bg-blue-700 text-white font-bold py-6 px-8 rounded-full">
                   Till Anmälan
                 </button>
