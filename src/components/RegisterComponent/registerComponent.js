@@ -10,7 +10,7 @@ function RegisterComponent() {
         <div className="px-24 pb-10">
           <a
             target="_blank"
-            href="https://raceid.com/sv/races/13545/about"
+            href="https://raceid.com/sv/races/14877/about"
             className="md:w-1/2"
           >
             <Image
@@ -27,7 +27,7 @@ function RegisterComponent() {
         <div className="px-24 pb-10">
           <a
             target="_blank"
-            href="https://raceid.com/sv/races/13545/about"
+            href="https://raceid.com/sv/races/14877/about"
             className="md:w-1/2"
           >
             <div>
